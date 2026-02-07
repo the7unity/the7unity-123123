@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+		<head>
+			
+<style>
+    body	 {
+			background-color: #202124;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			color: white;
+			margin-top: 20px;
+			}
+
+    h1 {
+        font-size: 70px;
+        font-weight: 400;
+        margin-bottom: 30px;
+		}  
+</style>
+
+		</head>
+		
+		
+			<title>Welcome page by Suraj</title>
+			<marquee style="color:green;"><b><u>CHANGE YOUR HABIT</u></b></marquee>
+			<marquee><a href="https://www.google.com">Gooogle</a></marquee>
+	<body>
+		<h1>Welcome to my webpage</h1> 
+  
+		<p>	My name is<b style="color:tomato;"> Suraj singh </b></p>
+		<p>	I am a <i>commerce student </i> and I am learning</p>
+		<p> <u>Web development</u>. I am interested in computer and technology.</p>
+		<p>	I like to improve my <b><i>technical skills</i></b> and gain <u>practice knowledge</u>. my goal is to build a successful career 
+			using<b> Hard work</b> and <i>dedication</i>.</p>	
+
+----------------------------------------------------------------------------------------------------------------------------------
+<h2>Prime Number Less then 100</h2>
+<h3>It is my <b>first pratical</b></h3>
+<p>Answer is given below</p>
+<p id="demo"></p>
+
+<ul id="prime-list"></ul>
+
+     <script> 
+
+			for(let i=1;i<=100;i++)
+		{let isprime=true;
+			for(let j=2;j<i;j++)
+			
+				{if(i%j==0)
+					{isprime=false;break;
+					}
+				}
+			if (isprime&&i>1)
+				{	 const li=document.createElement("li");
+					li.textContent=i;
+					document.getElementById("prime-list").appendChild(li);
+				}
+		}
+	</script>
+
+===================================================================================================================================
+
+	</body>	 
+	
+	
+</html>
